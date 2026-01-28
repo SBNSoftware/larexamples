@@ -10,6 +10,8 @@ cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
 
 find_package(cetmodules REQUIRED)
 project(larexamples VERSION 10.00.27 LANGUAGES CXX)
+# Explicitly set the project string
+set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING "10.00.27__sbn2")
 
 # cetbuildtools contains our cmake modules
 
